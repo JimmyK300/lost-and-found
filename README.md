@@ -119,17 +119,17 @@ You can edit the main UI in `src/app/page.tsx` and the quiz flow in `src/app/qui
 
 ## Testing & CI
 
-# install deps (once)
+### install deps (once)
 npm install
 npx playwright install chromium
 
-# run unit tests
+### run unit tests
 npm test
-# or
+#### or
 npm run test:unit
 
-# in one terminal, run dev server
+### in one terminal, run dev server
 npm run dev
 
-# in another terminal, run e2e tests
+### in another terminal, run e2e tests
 npm run test:e2e
